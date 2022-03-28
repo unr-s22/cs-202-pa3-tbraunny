@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cs_202_pa3_tbraunny",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cs_202_pa3_tbraunny::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cs_202_pa3_tbraunny-Debug-be825123d4130f97a926.json",
+					"name" : "cs_202_pa3_tbraunny",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Undergraduate/CS 202/Assignment 3/cs-202-pa3-tbraunny/cmake-build-debug",
+		"source" : "C:/Undergraduate/CS 202/Assignment 3/cs-202-pa3-tbraunny"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
