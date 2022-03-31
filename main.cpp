@@ -2,56 +2,15 @@
 #include "Account.h"
 
 int main() {
+	Money m(100 , 10);
+	Money n(100 , 15);
+	std::cout << m << std::endl;
 
-
- //Money operator test
-	Money money(100, 25);
-	std::cout << money << std::endl;
-
-	Money money2(99, 25);
-	if(money > money2){
-		std::cout << "yeah" << std::endl;
+	if (m < n) {
+		std::cout << "m is greater than n" << std::endl;
 	}
-	else {
-		std::cout << "nah" << std::endl;
-	}
-
-	if(money >= money2){
-		std::cout << "yeah" << std::endl;
-	}
-	else {
-		std::cout << "nah" << std::endl;
-	}
-
-	if(money <= money2){
-		std::cout << "yeah" << std::endl;
-	}
-	else {
-		std::cout << "nah" << std::endl;
-	}
-
-	if(money == money){
-		std::cout << "yeah" << std::endl;
-	}
-	else {
-		std::cout << "nah" << std::endl;
-	}
-
-	if(money != money){
-		std::cout << "yeah" << std::endl;
-	}
-	else {
-		std::cout << "nah" << std::endl;
-	}
-
-	std::cout << money2 << std::endl;
-
-	auto testN{money - money2};
-
-	std::cout << testN << std::endl;
-	testN = money + money2;
-	std::cout << testN << std::endl;
-
-	return 0;
-}
+}\
+Money.h:
+#ifndef CS_202_PA3_TBRAUNNY_MONEY_H
+#define CS_202_PA3_TBRAUNNY_MONEY_H
 
