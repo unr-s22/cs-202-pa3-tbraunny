@@ -16,6 +16,42 @@ int main() {
 		std::cout << "nah" << std::endl;
 	}
 
+	if(money >= money2){
+		std::cout << "yeah" << std::endl;
+	}
+	else {
+		std::cout << "nah" << std::endl;
+	}
+
+	if(money <= money2){
+		std::cout << "yeah" << std::endl;
+	}
+	else {
+		std::cout << "nah" << std::endl;
+	}
+
+	if(money == money){
+		std::cout << "yeah" << std::endl;
+	}
+	else {
+		std::cout << "nah" << std::endl;
+	}
+
+	if(money != money){
+		std::cout << "yeah" << std::endl;
+	}
+	else {
+		std::cout << "nah" << std::endl;
+	}
+
+	std::cout << money2 << std::endl;
+
+	auto testN{money - money2};
+
+	std::cout << testN << std::endl;
+	testN = money + money2;
+	std::cout << testN << std::endl;
+
 	return 0;
 }
 

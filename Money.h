@@ -23,6 +23,30 @@ public:
 	bool operator>(const Money &rhs) const {
 		return all_cents > rhs.all_cents;
 	}
+
+	bool operator==(const Money &rhs) const {
+		return all_cents == rhs.all_cents;
+	}
+
+	bool operator>=(const Money &rhs) const {
+		return all_cents >= rhs.all_cents;
+	}
+
+	bool operator<=(const Money &rhs) const {
+		return all_cents <= rhs.all_cents;
+	}
+
+	bool operator!=(const Money &rhs) const {
+		return all_cents != rhs.all_cents;
+	}
+
+	float operator+(const Money &rhs) const {
+		return all_cents + rhs.all_cents;
+	}
+
+	int operator-(const Money &rhs) const {
+		return all_cents - rhs.all_cents;
+	}
 	//idk what this is but I'll leave it just in case: int operator < (Money cents) {}
 
 
