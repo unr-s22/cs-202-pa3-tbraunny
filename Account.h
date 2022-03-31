@@ -8,6 +8,7 @@ private:
     std::vector<Money*> balanceSheet;
     int currentDollars;
     int currentCents;
+	bool balanceUpdate{false};
 public:
     Account(int dollars , int cents):Money(dollars , cents){};
     void makeDeposit(Money(int dollars , int cents));
