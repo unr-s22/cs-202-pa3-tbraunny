@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/cs_202_pa3_tbraunny.dir/main.cpp.o -o cs_202_pa3_tbraunny 
+"C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cs_202_pa3_tbraunny.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\cs_202_pa3_tbraunny.dir/objects.a @CMakeFiles\cs_202_pa3_tbraunny.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\cs_202_pa3_tbraunny.dir/objects.a -Wl,--no-whole-archive -o cs_202_pa3_tbraunny.exe -Wl,--out-implib,libcs_202_pa3_tbraunny.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cs_202_pa3_tbraunny.dir\linklibs.rsp

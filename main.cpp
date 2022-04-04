@@ -9,8 +9,7 @@ int main() {
 	if (m < n) {
 		std::cout << "m is greater than n" << std::endl;
 	}
-}\
-Money.h:
+}
 #ifndef CS_202_PA3_TBRAUNNY_MONEY_H
 #define CS_202_PA3_TBRAUNNY_MONEY_H
 

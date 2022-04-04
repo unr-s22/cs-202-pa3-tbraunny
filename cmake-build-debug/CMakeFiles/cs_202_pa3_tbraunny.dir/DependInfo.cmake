@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mark/Desktop/cs202/cs-202-pa3-tbraunny/main.cpp" "CMakeFiles/cs_202_pa3_tbraunny.dir/main.cpp.o" "gcc" "CMakeFiles/cs_202_pa3_tbraunny.dir/main.cpp.o.d"
+  "C:/Undergraduate/CS 202/Assignment 3/cs-202-pa3-tbraunny/main.cpp" "CMakeFiles/cs_202_pa3_tbraunny.dir/main.cpp.obj" "gcc" "CMakeFiles/cs_202_pa3_tbraunny.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
